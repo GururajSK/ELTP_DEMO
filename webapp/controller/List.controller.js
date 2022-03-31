@@ -22,10 +22,13 @@ sap.ui.define([
                 oBinding.filter([oFilter]); 
                 }
             },
-
+              
+            /**
+             * This fuction navigates up to detail page
+             */
             onPressNext: function(){
                 var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
-                oRouter.navTo("DetailView", {ProductId : "0000"});
+                oRouter.navTo("DetailView", {ProductId : "0"});
             },
 
             onPressProduct: function(oEvent) {
