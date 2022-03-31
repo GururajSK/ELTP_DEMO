@@ -1,3 +1,4 @@
 {
-    "[javascript].editor.defaultFormatter": "esbenp.prettier-vscode"
+    "[javascript].editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[json].editor.defaultFormatter": "mblode.pretty-formatter"
 }

@@ -3,11 +3,12 @@ sap.ui.define(
     "sap/ui/core/mvc/Controller",
     "sap/ui/model/Filter",
     "sap/ui/model/FilterOperator",
+    "demolist/lib/moment"
   ],
   /**
    * @param {typeof sap.ui.core.mvc.Controller} Controller
    */
-  function (Controller, Filter, FilterOperator) {
+  function (Controller, Filter, FilterOperator, moment) {
     "use strict";
 
     return Controller.extend("demolist.controller.Detail", {
