@@ -33,6 +33,11 @@ sap.ui.define(
         //Bind it to one model -> use this model to disply the records in detail screen.
 
       },
+
+      
+      /**
+       * This fuction navigates us to list page of the products
+       **/
       onPressNavBack: function () {
         var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
         oRouter.navTo("RouteList");
